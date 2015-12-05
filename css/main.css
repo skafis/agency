@@ -1,6 +1,14 @@
+html {
+	background-color: #b2b2b2; 
+	background-image: url("image/image_2.png");
+	background-repeat: no-repeat;
+	background-position: 20px 10px;
+	color: #fff;
+	padding: 15px 20px 15px 50px;
+} 
+
 body {
-	background: #293f50;
-	color: #888;
+	color: #888
 	font-weight: 300 16px/22px "lato ", "open sans"
 }
 h1,
@@ -11,14 +19,15 @@ h3 {
 }
 
 p{
-	font: "Times New Roman";
+	
 	text-align: center;
 }
 
 .top {
 	border-bottom-style: ridge;
-	margin-bottom: 20px;
-}
+	background-image: url("image/image_4");
+	border-bottom: 13px;
+	}
 
 .end {
 	border-top-style: ridge;
@@ -31,9 +40,10 @@ p{
 }
 
 .container {
-	background: radial-gradient  (#648880, #293f50);
-	padding-left: 30px;
-  	padding-right: 30px;
+	background-image: url("image/image_11.png");
+	padding-left:  50px;
+	padding-right: 50px;
+	font: "lobster";
 }
 
 
