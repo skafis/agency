@@ -1,0 +1,52 @@
+body {
+	background: #293f50;
+	color: #888;
+	font-weight: 300 16px/22px "lato ", "open sans"
+}
+h1,
+h3 {
+	text-align: center;
+	color: green;
+	text-decoration: underline;
+}
+
+p{
+	font: "Times New Roman";
+	text-align: center;
+}
+
+.top {
+	border-bottom-style: ridge;
+	margin-bottom: 20px;
+}
+
+.end {
+	border-top-style: ridge;
+	margin-top: 20px;
+}
+
+.link {
+	font-size: 16px;
+	text-align: justify;
+}
+
+.container {
+	background: radial-gradient  (#648880, #293f50);
+	padding-left: 30px;
+  	padding-right: 30px;
+}
+
+
+.grid,
+.col {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col1,
+.col2
+.col3{
+  display: inline-block;
+  width: 33.33%;
+}
+
